@@ -1,0 +1,55 @@
+# RESUMEN DE CAMBIOS - SEKURY NETSUITE v3.0
+
+Estado: COMPLETADO
+Fecha: 26 de Marzo de 2026
+
+Objetivo principal
+- Unificar OG_SEKURY + OG_NETMAPPER en un solo proyecto.
+- Mantener estetica ASCII y experiencia de uso simple.
+- Reducir redundancia de scripts y flujo de build/distribucion.
+
+Cambios clave
+1) Integracion funcional
+- Se integra NETMAPPER (Nmap) dentro de la app principal.
+- Nuevo acceso por opcion 9 en el menu principal.
+
+2) Menus y usabilidad
+- Menu principal consolidado para seguridad local + mapeo de red.
+- Submenu NETMAPPER con escaneos rapidos, SO, servicios y vulnerabilidades.
+
+3) Correcciones
+- Se corrige referencia invalida de banner y se normaliza salida visual.
+
+4) Dependencias
+- requirements.txt ahora incluye psutil y python-nmap.
+- install_dependencies.bat actualizado con verificacion de Nmap.
+
+5) Build y distribucion
+- Ejecutable renombrado a SEKURY_NETSUITE.exe.
+- ZIP de release renombrado a SEKURY_NETSUITE_release.zip.
+- Instalador NSIS renombrado a SEKURY_NETSUITE_Installer.exe.
+- Script de instalacion NSIS actualizado a nuevo nombre/rutas.
+
+6) Documentacion
+- README.md renovado como documento base del nuevo proyecto.
+- GUIA_DE_USO.txt y QUICK_START_v3.0.md actualizados a flujo v3.0.
+- DISTRIBUTION_README.txt actualizado para artefactos nuevos.
+
+Archivos principales tocados
+- main.py
+- requirements.txt
+- build_sekury.bat
+- build_release.bat
+- run_sekury.bat
+- install_dependencies.bat
+- SEKURY_NETSUITE.spec
+- installer.nsi
+- README.md
+- QUICK_START_v3.0.md
+- GUIA_DE_USO.txt
+- DISTRIBUTION_README.txt
+- RESUMEN_CAMBIOS.txt
+
+Resultado
+- Proyecto unificado listo para operar como nueva base.
+- Menor duplicidad y distribucion coherente con branding unico.

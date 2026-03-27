@@ -1,0 +1,62 @@
+SEKURY NETSUITE - Guia de uso rapido
+
+Resumen
+- Suite integrada de seguridad local y mapeo de red.
+- Modulo 1: analisis de conexiones y gestion de amenazas.
+- Modulo 2: NETMAPPER (escaneo con Nmap).
+
+Requisitos
+- Windows 7/8/10/11+
+- Python 3.8+
+- Nmap instalado en el sistema
+- Dependencias: psutil y python-nmap
+
+Instalacion
+1) Abre PowerShell como Administrador.
+2) Entra a la carpeta del proyecto.
+3) Ejecuta:
+   install_dependencies.bat
+
+Ejecucion
+1) Ejecuta:
+   python main.py
+2) Elige una opcion del menu principal.
+
+Menu principal
+- 1 Escanear todas las conexiones
+- 2 Ver conexiones sospechosas
+- 3 Analisis rapido
+- 4 Ayuda
+- A Ejecutar todo silencioso
+- 5 Panel de amenazas
+- 6 Agregar IP a lista blanca
+- 7 Ver procesos de alto riesgo
+- 8 Estado del sistema
+- 9 NETMAPPER (Nmap)
+- 0 Salir
+
+Gestion de amenazas
+1) Ejecuta opcion 1 para detectar amenazas.
+2) Ve a opcion 5.
+3) Elige amenaza y accion:
+   - 1 Bloquear IP
+   - 2 Desbloquear IP
+   - 3 Terminar proceso
+   - 4 Agregar a whitelist
+
+NETMAPPER
+1) Ve a opcion 9.
+2) Ingresa host o IP.
+3) Elige escaneo:
+   - rapido
+   - deteccion SO
+   - versiones de servicios
+   - vulnerabilidades
+
+Archivos generados
+- netstat_security_report.json
+- whitelist.json
+- %USERPROFILE%\NetMapperCK_Reports\nmap_scan_*.json
+
+Nota legal
+- Usa esta herramienta solo en sistemas y redes autorizadas.

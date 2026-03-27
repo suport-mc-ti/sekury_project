@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments and local Python installs
+.venv/
+venv/
+env/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# Build artifacts
+build/
+dist/
+*.pkg
+*.spec.bak
+
+# Release artifacts
+*.exe
+*.zip
+
+# Logs and reports
+actions.log
+netstat_security_report.json
+
+# Editor
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
