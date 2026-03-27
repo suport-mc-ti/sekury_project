@@ -106,6 +106,7 @@ Artefactos esperados:
 - `SEKURY_NETSUITE.exe`
 - `SEKURY_NETSUITE_release.zip`
 - `SEKURY_NETSUITE_Installer.exe`
+- `SHA256SUMS.txt`
 
 ## Releases
 
@@ -116,6 +117,8 @@ Para futuras releases se recomienda:
 - generar artefactos con `build_all.bat`;
 - publicar el ZIP y el instalador en GitHub Releases;
 - incluir hash SHA256 de los binarios publicados.
+
+`build_all.bat` genera automaticamente `SHA256SUMS.txt` con hashes SHA256 de los artefactos disponibles.
 
 ## Seguridad y uso responsable
 

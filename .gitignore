@@ -25,7 +25,9 @@ dist/
 
 # Logs and reports
 actions.log
+build_all.log
 netstat_security_report.json
+SHA256SUMS.txt
 
 # Editor
 .vscode/
